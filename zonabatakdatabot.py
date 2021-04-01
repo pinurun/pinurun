@@ -30,7 +30,7 @@ dispatcher = updater.dispatcher
 
 def Start(update, context):
     data = '/notif\
-    \nSilahkan isi form dibawah\n\n• *Biodata Diri*\n Nama :\n Marga/boru :\n Mamak boru :\n Tempat tgl lahir :\n Kota Asal :\n Kota Sekarang :\n\n• *Media Sosial*(boleh ditambah)\nInstagram :\n\n• *Pesan* (jika ada)\n...\n\n@zonabatak @zonabatakid'
+    \nSilahkan isi form dibawah\n\n• *Biodata Diri*\n Nama :\n Marga/boru :\n Mamak boru :\n Tempat tgl lahir :\n Kota Asal :\n Kota Sekarang :\n\n• *Media Sosial*(boleh ditambah)\n Instagram :\n\n• *Pesan* (jika ada)\n...\n\n@zonabatak @zonabatakid'
     update.message.reply_text(data, parse_mode=ParseMode.MARKDOWN)
 
 def Reply(update, context):
@@ -48,7 +48,7 @@ def SendToCreator(update, context):
     chat_id = update.effective_chat.id
     message = "1 *Pesan baru* dari [{name}](tg://user?id={id}){message}".format(name=name, id=msg.from_user.id, message=zb)
     bot.sendMessage(CreatorID, message, parse_mode=ParseMode.MARKDOWN)
-    update.effective_message.reply_text("Pesan telah terkirim!")
+    update.effective_message.reply_text("Biodata telah terkirim!")
 
 def Log(update, context):
     message = update.message
