@@ -29,7 +29,7 @@ updater = Updater(token=TOKEN, use_context=True)
 dispatcher = updater.dispatcher 
 
 def Start(update, context):
-    data = '/notif\
+    data = '/notif\ n\
     Silahkan isi form dibawah\n\n• *Biodata Diri*\n Nama :\n Marga/boru :\n Mamak boru :\n Tempat tgl lahir :\n Kota Asal :\n Kota Sekarang :\n\n• *Media Sosial*(boleh ditambah)\nInstagram :\n\n• *Pesan* (jika ada)\n...\n\n@zonabatak @zonabatakid'
     update.message.reply_text(data, parse_mode=ParseMode.MARKDOWN)
 
