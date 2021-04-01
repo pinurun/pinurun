@@ -46,7 +46,7 @@ def SendToCreator(update, context):
     # Use split method
     zb = text.replace("/notif", "") # Enabled
     chat_id = update.effective_chat.id
-    message = "*New* `1` message from [{name}](tg://user?id={id}){message}".format(name=name, id=msg.from_user.id, message=zb)
+    message = "1 *Pesan baru* dari [{name}](tg://user?id={id}){message}".format(name=name, id=msg.from_user.id, message=zb)
     bot.sendMessage(CreatorID, message, parse_mode=ParseMode.MARKDOWN)
     update.effective_message.reply_text("Pesan telah terkirim!")
 
