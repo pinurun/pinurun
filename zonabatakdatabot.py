@@ -41,10 +41,10 @@ def SendToCreator(update, context):
     name = update.effective_message.from_user.first_name
     msg = update.effective_message
     text = update.effective_message.text
-    # Use replace method 
-    # msg = msg.replace("/notif ", "") # Disabled
-    # Use split method
-    zb = text.replace("/notif", "") # Enabled
+    frst = text.replace("/notif", "")
+    scn = frst.replace("Silahkan isi form dibawah", "")
+    abc = scn.replace("(boleh ditambah)", "")
+    zb = abc.replace("(jika ada)", "")
     chat_id = update.effective_chat.id
     message = "1 *Pesan baru* dari [{name}](tg://user?id={id}){message}".format(name=name, id=msg.from_user.id, message=zb)
     bot.sendMessage(CreatorID, message, parse_mode=ParseMode.MARKDOWN)
