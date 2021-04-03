@@ -2,10 +2,9 @@
 <p/>
 
 ```
-About Me = [
-    "I'm student with nub dev labels",
-    "A fan of Python, Kotlin, C, C++, Html, PHP, CSS, Java, Laravel",
-    "dream everyday"
+Joke = [
+    "Last night I dreamed of going to the moon, would you help me make it happen? ",
+    "A fan of Python, Kotlin, C, C++, Html, PHP, CSS, Java, Laravel"
 ]
 ```
 <p align="center">
