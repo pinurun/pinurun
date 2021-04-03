@@ -2,9 +2,9 @@
 <p/>
 
 ```
-
+Bio [
     "Last night the internet stopped working so i spent a few hours with my family, they seem like good people.",
-
+]
 ```
 <p align="center">
   <img src="https://thumbs.gfycat.com/EarlyHeavenlyBlackbird-size_restricted.gif">
