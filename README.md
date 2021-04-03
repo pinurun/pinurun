@@ -1,9 +1,12 @@
 <h2 align="center">Hi, I'm P I N U R U N! Welcome to My GitHub profile.</h2>
-<br/>
-<br/><br/>
-<br/><br/>
-<br/>
-
+<p/>
+```
+About Me = [
+    "I'm student with nub dev labels",
+    "A fan of Python, Kotlin, C, C++, Html, PHP, CSS, Java, Laravel",
+    "dream everyday"
+]
+```
 <p align="center">
   <img src="https://thumbs.gfycat.com/EarlyHeavenlyBlackbird-size_restricted.gif">
 </p>
