@@ -1,8 +1,8 @@
-<h2 align="center">Hi, I'm P I N U R U N! Welcome to My GitHub profile.</h2>
+<h3 align="center">Hi, I'm P I N U R U N! Welcome to My GitHub profile.</h3>
 <p/>
 
 ```
-Bio [
+Bio : [
 
     "Last night the internet stopped working so i spent a few hours with my family, they seem like good people.",
 ]
