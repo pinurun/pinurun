@@ -3,8 +3,7 @@
 
 ```
 Joke = [
-    "Last night I dreamed of going to the moon, would you help me make it happen? ",
-    "A fan of Python, Kotlin, C, C++, Html, PHP, CSS, Java, Laravel"
+    "Last night the internet stopped working so i spent a few hours with my family, they seem like good people.",
 ]
 ```
 <p align="center">
