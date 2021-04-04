@@ -10,6 +10,4 @@ Bio : [
 ]
 ```
 
-
-<h4 align="center">Thanks for visiting my GitHub</h4>
 <p/>
